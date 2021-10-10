@@ -131,10 +131,10 @@ public class TodoUtil {
 				//sc.nextLine();
 				String new_title = sc.nextLine();
 				new_title = new_title.trim();
-				if (l.isDuplicate(new_title)) { // 중복 검사를 통해 점검... 
-					System.out.println("\n이미 목록에 있습니다.\n");
-					return;
-				}
+				//if (l.isDuplicate(new_title)) { // 중복 검사를 통해 점검... 
+				//	System.out.println("\n이미 목록에 있습니다.\n");
+				//	return;
+				//}
 				sc.nextLine();
 				System.out.print("새로운 내 용 >> "); 
 				String new_description = sc.nextLine();
